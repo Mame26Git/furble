@@ -238,8 +238,8 @@
         ]
     },
     {
-        "file": "noimg2.dlc", 
-        "title": "Unused Exs and Ohs DLC",
+        "file": "fu001680.dlc", 
+        "title": "Firmware",
         "buttons": [
             { "title": "Audio test ", "action": [75,0,4,4] }
         ]
