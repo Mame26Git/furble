@@ -243,5 +243,13 @@
         "buttons": [
             { "title": "Audio test ", "action": [75,0,4,4] }
         ]
+    },
+    { 
+        "file": "fu001689.dlc", 
+        "title": "Is it a song or a firmware?",
+        "buttons": [
+            { "title": "Exterminate", "action": [75,0,3,4] },
+            { "title": "Kill all Humans", "action": [75,0,4,4] }
+        ]
     }
 ]
