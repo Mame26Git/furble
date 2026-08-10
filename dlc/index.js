@@ -175,7 +175,7 @@
     },    
     {
         "file": "Orks.dlc", 
-        "title": "Orks",
+        "title": "The DLC Made by the Waaagh",
         "buttons": [
             { "title": "Be Green", "action": [75,0,4,1] },
             { "title": "Waaagh", "action": [75,0,3,2] },
@@ -194,9 +194,9 @@
     },
     {
         "file": "Waaagh.dlc", 
-        "title": "Waaaagh",
+        "title": "WAAAAAAAAAAAAAAAAAGH!",
         "buttons": [
-            { "title": "WAAAAAAGH!", "action": [75,0,0,2] }
+            { "title": "I scream on you", "action": [75,0,0,2] }
         ]
     },
     
@@ -211,27 +211,27 @@
         "file": "SciFix.dlc", 
         "title": "Science!",
         "buttons": [
-            { "title": "FUCK MY HOUSE!", "action": [75,0,0,2] }
+            { "title": "Why do you have to swear, Bunsoootchi?", "action": [75,0,0,2] }
          ]
     },
     {
         "file": "chilli.dlc", 
         "title": "Chilli",
         "buttons": [
-            { "title": "Just Chilli Eyes ", "action": [75,0,4,4] }
+            { "title": "Im unfortunately Unhappy to say that it's a fake DLC", "action": [75,0,4,4] }
         ]
     },
     
     { 
         "file": "context.dlc", 
-        "title": "Context Logo",
+        "title": "Where's Furby?",
         "buttons": [
             { "title": "Logo", "action": [75,0,4,4] }
         ]
     },
     { 
         "file": "hacked.dlc", 
-        "title": "Daleks Invasion",
+        "title": "DA WAAAGH HACK",
         "buttons": [
             { "title": "Exterminate", "action": [75,0,3,4] },
             { "title": "Kill all Humans", "action": [75,0,4,4] }
@@ -239,7 +239,7 @@
     },
     {
         "file": "noimg2.dlc", 
-        "title": "Audio only",
+        "title": "Unused Exs and Ohs DLC",
         "buttons": [
             { "title": "Audio test ", "action": [75,0,4,4] }
         ]
