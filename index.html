@@ -34,6 +34,8 @@
         <li><a href='#killyourfurby'>Dangerous Stuff!<br> <span style='font-size:10px;'> <i> If you want to try out </i></span></a></li>
 
         <li><a href='#misc'>Miscellaneous<br> <span style='font-size:10px;'> <i> Antenna Color / Debug Menu / Sensors</i></span></a></li>
+        <li><a href='#names'>Names<br> <span style='font-size:10px;'> <i> DONT YOU FUCKING DARE BRICK YOUR FURBY!</i></span></a></li>
+
     </ul>
 </div>
 
@@ -54,7 +56,7 @@
             <button onclick='setAntennaColor(0, 255,0)'>Green</button>
             <button onclick='setAntennaColor(0, 0, 255)'>Blue</button>
             <button onclick='setAntennaColor(255, 255, 255)'>White</button>
-            <button onclick='setAntennaColor(0, 1, 0)'>Why</button>
+            <button onclick='setAntennaColor(0, 0, 0)'>Antennae Blackout!</button>
             <button onclick='setAntennaColor(255, 165, 0)'>Orange</button>
             <button onclick='setAntennaColor(255, 255, 0)'>Yellow</button>
             <button onclick='setAntennaColor(128, 0, 128)'>Purple</button>
@@ -916,17 +918,33 @@
         <h2>Dangerous Stuff!</h2>
 
         <!-- Do at your own risk bro -->
-        <p style='margin-top:20px;'>Do at your own risk lil bro</p>
+        </div>
         <div class='row'>
             <button onclick='triggerAction(33,0,0,129)'>Glitch/Crash Your Furby!</button>
 
         </div>
          <!-- End experimental -->
 
+            </section>
+
+    <section id='names'>
+        <h2>Names</h2>
+        </div>
+        <div class='row'>
+            <p>For the full list of commands, <a href="https://github.com/Jeija/bluefluff/blob/master/doc/actionlist.md" target=”_blank”> click here</a></p>
+        <div class='row'>
+            <input='number' min='33' max='33' name='furby-action' value='33'>
+            <input='number' min='0' max='0' name='furby-action' value='0'>
+            <input='number' min='0' max='0' name='furby-action' value='0'>
+            <input type='number' min='0' max='128' name='furby-action' value='0'>
+            <button onclick='customAction()'>Send</button>
+        </div>
+
+
     </section>
 
     <section id='no-web-bluetooth'>
-        <h3>Sorry, this browser doesn't seem to support Web Bluetooth. Works best with Chrome for Android.</h3>
+        <h3>Switch to chrome and get an android phone.</h3>
     </section>
 </div>
 
@@ -942,7 +960,7 @@ var s = document.createElement('script');
 s.src = 'furble.js?' + Math.random();
 document.body.appendChild(s);
 s.onload = () => {
-    log('ready!');
+    log('kah ready to go!');
     enableButtons(false);
     updateCurrentSection();
     loadDLCIndex();
@@ -973,7 +991,7 @@ function showStatus(msg, cls) {
 }
 
 var msg = {
-    ok: s => showStatus(s, 'ok'),
+    ok: s => showStatus(s, 'okay'),
     error: s => showStatus(s, 'error'),
 };
 
@@ -1048,7 +1066,7 @@ function log2clipboard() {
     range.selectNode(out);
     window.getSelection().addRange(range);
     document.execCommand('copy');
-    msg.ok('Copied to clipboard');
+    msg.ok('copied! why oo-nye do that?');
 }
 
 </script>
