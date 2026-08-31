@@ -251,5 +251,23 @@
             { "title": "Exterminate", "action": [75,0,3,4] },
             { "title": "Kill all Humans", "action": [75,0,4,4] }
         ]
+    },
+    {"file": "tu010600.dlc", 
+        "title": "DLC",
+        "buttons": [
+            { "title": "Lazy", "action": [75,0,4,1] },
+            { "title": "Lazy", "action": [75,0,3,2] },
+            { "title": "Lazy", "action": [75,0,4,0] },
+            { "title": "Lazy", "action": [75,0,6,5] },
+            { "title": "Lazy", "action": [75,0,5,6] },
+            { "title": "Lazy", "action": [75,0,6,6] },
+            { "title": "Lazy", "action": [75,0,4,5] },
+            { "title": "Lazy", "action": [75,0,4,6] },
+            { "title": "Lazy", "action": [75,0,7,6] },
+            { "title": "Lazy", "action": [75,0,0,3] },
+            { "title": "Lazy", "action": [75,0,0,2] },
+            { "title": "Lazy", "action": [75,0,4,7] },
+            { "title": "Lazy", "action": [75,0,3,3] } 
+        ]
     }
 ]
