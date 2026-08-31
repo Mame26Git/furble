@@ -252,7 +252,8 @@
             { "title": "Kill all Humans", "action": [75,0,4,4] }
         ]
     },
-    {"file": "tu010600.dlc", 
+    {
+        "file": "tu010600.dlc", 
         "title": "DLC",
         "buttons": [
             { "title": "Lazy", "action": [75,0,4,1] },
