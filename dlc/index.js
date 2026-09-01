@@ -272,7 +272,7 @@
         ]
     },
     {
-        "file": "tr010170.dlc.dlc", 
+        "file": "tr010170.dlc", 
         "title": "English Furby Killer",
         "buttons": [
             { "title": "Get the fuck out of here bro", "action": [75,0,0,2] }
