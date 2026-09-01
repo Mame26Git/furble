@@ -277,5 +277,5 @@
         "buttons": [
             { "title": "Get the fuck out of here bro", "action": [75,0,0,2] }
         ]
-    },
+    }
 ]
