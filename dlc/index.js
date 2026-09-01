@@ -270,5 +270,12 @@
             { "title": "Lazy", "action": [75,0,4,7] },
             { "title": "Lazy", "action": [75,0,3,3] } 
         ]
-    }
+    },
+    {
+        "file": "tr010170.dlc.dlc", 
+        "title": "English Furby Killer",
+        "buttons": [
+            { "title": "Get the fuck out of here bro", "action": [75,0,0,2] }
+        ]
+    },
 ]
